@@ -2,6 +2,8 @@ import React from 'react';
 import logoImg from '../../assets/images/logo.svg';
 import landingImg from '../../assets/images/landing.svg';
 
+import './style.css';
+
 function Landing() {
   return (
     <div id="landing-page">
