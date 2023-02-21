@@ -83,3 +83,46 @@
   align-items: center;
   justify-content: center;
 }
+
+@media (min-width: 1100px) {
+  #landing-page-content {
+    max-width: 1100px;
+
+    display: grid;
+    grid-template-rows: 290px 1fr;
+    grid-template-columns: 550px 1fr;
+    grid-template-areas: 
+    "logo hero"
+    "buttons total";
+  }
+
+  .landing-page-logo-container {
+    grid-area: logo;
+    text-align: initial;
+  }
+
+  .landing-page-logo-container img {
+    height: 35%;
+  }
+
+  .landing-page-logo-container h2 {
+    font-size: 3.5rem;
+  }
+
+  .hero-image {
+    grid-area: hero;
+    justify-self: end;
+    margin-top: 3rem;
+  }
+
+  .buttons-container {
+    grid-area: buttons;
+    justify-content: flex-start;
+  }
+
+  .total-connections {
+    grid-area: total;
+    margin-top: 2.9rem;
+    font-size: 1.9rem;
+  }
+}
