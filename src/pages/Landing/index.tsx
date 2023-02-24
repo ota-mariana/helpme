@@ -16,11 +16,11 @@ function Landing() {
         <img src={ landingImg } alt="Estudantes na plataforma" className="hero-image"/>
 
         <div className="buttons-container">
-          <a href="" className="study">
+          <a href="/study" className="study">
             <img src="" alt="Estudar" />
           </a>
 
-          <a href="" className="give-classes">
+          <a href="/give-classes" className="give-classes">
             <img src="" alt="Ensinar" />
           </a>
         </div>
